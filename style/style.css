@@ -72,11 +72,13 @@ body{
 }
 
 /*header-part*/
-.nav, ul, li, a{
+.nav ul, a{
     display: flex;
-    list-style: none;
     gap: 48px;
     text-decoration: none;
+}
+.nav ul{
+    list-style: none;
 }
 .header{
     display: flex;
@@ -129,6 +131,37 @@ body{
     margin-top: 10px;
 }
 
+/*Flower & Plants Lover*/
+.third-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 160px;
+}
+.img-badge, .third-section-content{
+    width: 540px;
+}
+.badge{
+    display: flex;
+    justify-content: end;
+}
+.badge img{
+    width: 220px;
+    position: absolute;
+    margin-top: -80px;
+    margin-right: -70px;
+    z-index: 5;
+}
+.img img{
+    width: 540px;
+    height: 597px;
+}
+.bullet-point{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
 
 
 
@@ -200,5 +233,23 @@ body{
 .product-card img{
     width: 100%;
 }
-
+.third-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    row-gap: 10px;
+}
+.badge{
+    display: none;
+}
+.img img{
+    width: 100%;
+}
+.img-badge, .third-section-content{
+    width: 100%;
+}
+.bullet-point{
+    margin-top: 10px;
+    row-gap: 10px;
+}
 }
