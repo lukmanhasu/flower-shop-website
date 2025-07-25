@@ -230,6 +230,94 @@ body{
 .deals-right .deals-button{
     font-size: 28px;
 }
+/*join section*/
+.join-section{
+    background-image: linear-gradient(rgba(7, 51, 79, 0.4)), url(../assets/news-letter-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 533px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 23px;
+}
+.join-section .section-title{
+    color: #ffffff;
+}
+.email-input{
+    background-color: #F5F8FF;
+    width: 644px;
+    padding: 15px 20px;
+    border: none;
+    font-family: inter;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.submit-button{
+    padding: 15px 20px;
+    border: none;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #E95A08;
+    color: #FFFFFF;
+}
+.join-section form{
+    display: flex;
+}
+
+/*footer*/
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.footer li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer-intro{
+    width: 359px;
+}
+.footer-intro img{
+    width: 135px;
+    margin-bottom: 20px;
+}
+.footer-menu{
+    width: 200px;
+}
+.footer-quick-links{
+    width: 200px;
+}
+.footer-secial{
+    display: flex;
+    gap: 24px;
+}
+.footer-secial img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -279,8 +367,8 @@ body{
 .hero-image, .hero-content{
     width: 100%;
 }
-.hero-image{
-    margin-right: 10px;
+.hero-image img{
+    width: 100%;
 }
 .product-section{
     margin-top: 65px;
@@ -333,14 +421,15 @@ body{
 }
 .deals-left{
     row-gap: 20px;
+    align-items: center;
 }
 .sixty-off, .thirty-off{
-    width: 361px;
-    height: 184.5px;
+    width: 100%;
+    height: 220px;
 }
 .deals-right{
-    width: 361px;
-    height: 172px;
+    width: 100%;
+    height: 220px;
     margin-top: 20px;
 }
 .deals-right h3{
@@ -350,4 +439,37 @@ body{
     font-size: 16px;
 }
 
+
+
+.join-section{
+    height: 275px;
+    width: 100%;
+    margin-top: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(../assets/news-letter-bg.png);
+}
+.join-section .section-title{
+    color: #ffffff;
+}
+.email-input{
+    width: 40%;
+}
+.join-section form{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.footer li{
+    margin-bottom: 20px;
+}
+.footer ul{
+    padding: 0;
+}
+.footer-quick-links{
+    margin-top: -20px;
+}
 }
