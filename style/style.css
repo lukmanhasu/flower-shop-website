@@ -163,6 +163,73 @@ body{
     row-gap: 20px;
 }
 
+/*Latest  Deals section*/
+.deals{
+    margin-top: 100px;
+}
+.deals-heading-subheading{
+    text-align: center;
+    width: 888px;
+    margin: 0 auto;
+}
+.deals-off{
+    margin-top: 100px;
+    display: flex;
+    column-gap: 28px;
+}
+.deals-button{
+    font-family: inter;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+.off-title{
+    font-family: noto serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.deals-left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.sixty-off, .thirty-off{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(../assets/deal-bloom.png);
+    background-size: cover;
+    width: 366px;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    gap: 20px;
+}
+.thirty-off{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(../assets/deal-ana.png);
+    height: 197px;
+}
+.deals-right{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)),url(../assets/deal-zabo.png);
+    width: 753px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    border-radius: 22px;
+}
+.deals-right h3{
+    font-family: noto serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.deals-right .deals-button{
+    font-size: 28px;
+}
 
 
 
@@ -252,4 +319,35 @@ body{
     margin-top: 10px;
     row-gap: 10px;
 }
+.deals{
+    margin-top: 100px;
+}
+.deals-heading-subheading{
+    text-align: center;
+    width: 336px;
+}
+.deals-off{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.deals-left{
+    row-gap: 20px;
+}
+.sixty-off, .thirty-off{
+    width: 361px;
+    height: 184.5px;
+}
+.deals-right{
+    width: 361px;
+    height: 172px;
+    margin-top: 20px;
+}
+.deals-right h3{
+    font-size: 20px;
+}
+.deals-right .deals-button{
+    font-size: 16px;
+}
+
 }
